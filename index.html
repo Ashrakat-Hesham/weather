@@ -1,0 +1,117 @@
+<html>
+
+<head>
+  <link rel="stylesheet" href="css/all.min.css" />
+  <link rel="stylesheet" href="css/bootstrap.min.css" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+
+  <nav class="navbar mx-auto navbar-expand-lg bg-dark text-body">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"><img src="images/logo@2x.png" alt="" /></a>
+      <div class="nav d-block">
+        <h6><a class="navbar-brand" href="#">Weather</a></h6>
+        <h6><a class="navbar-brand" href="#">tagline goes here</a></h6>
+      </div>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse overlay navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 py-3 pe-5 mb-lg-0">
+          <li class="nav-item mx-3 py-1 px-3">
+            <a class="nav-link active" aria-current="page" href="#home">Home</a>
+          </li>
+          <li class="nav-item mx-3 py-1 px-3">
+            <a class="nav-link" href="#">News</a>
+          </li>
+          <li class="nav-item mx-3 py-1 px-3">
+            <a class="nav-link" href="#">Live Cameras</a>
+          </li>
+          <li class="nav-item mx-3 py-1 px-3">
+            <a class="nav-link" href="#">Photos</a>
+          </li>
+          <li class="nav-item mx-3 py-1 px-3">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <section id="home">
+    <div class="weather bg-dark  h-100 ">
+      <div class="contain container-fluid d-flex justify-content-center py-5">
+        <div class="row w-75 mx-auto" >
+          <form action="">
+            <input type="text mt-5" id="searchInput" class="findInput form-control w-100 rounded-pill py-3"
+              placeholder="find your location">
+            <input id="findBtn" type="button" value="find" class="searchBtn rounded-pill px-5 py-2">
+            <p class="text-warning text-center" id="validInput"></p>
+          </form>
+          <div id="rowData" class="row mx-auto d-flex mt-5">
+            <div id="currentDayCard" class="col-md-4 mb-2">
+
+            </div>
+            <div id="tomorrowDayCard" class="col-md-4 mb-2">
+
+            </div>
+            <div id="dayAftertomorrowCard" class="col-md-4 mb-2">
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+    </div>
+
+  </section>
+  <div class="containeer container-fluid h-auto pt-5">
+    <div class="row  w-100 mx-auto">
+      <div class="subscribe d-flex align-items-center ">
+        <form class="w-75">
+          <input type="text mt-5" class="findInput form-control w-100 rounded-pill py-3"
+            placeholder="Enter Your Email to subscribe...">
+          <input type="button" value="subscribe" class="searchBtn rounded-pill px-5 py-2">
+        </form>
+        <div class="icon">
+          <div class="icons ms-2  me-2 d-flex  rounded-circle justify-content-center align-items-center">
+            <i class="fa-brands rounded-circle p-1 fs-3 text-info fa-facebook-f"></i>
+          </div>
+        </div>
+        <div class="icon">
+          <div class="icons   me-2 d-flex  rounded-circle justify-content-center align-items-center">
+            <i class="fa-brands rounded-circle p-1 fs-3 text-info fa-twitter"></i>
+          </div>
+        </div>
+        <div class="icon">
+          <div class="icons   me-2 d-flex  rounded-circle justify-content-center align-items-center">
+            <i class="fa-brands rounded-circle p-1 fs-3 text-info fa-google-plus"></i>
+          </div>
+        </div>
+        <div class="icon">
+          <div class="icons   me-2 d-flex  rounded-circle justify-content-center align-items-center">
+            <i class="fa-brands rounded-circle p-1 fs-3 text-info fa-pinterest-p"></i>
+          </div>
+        </div>
+
+      </div>
+<p class="text-white ms-5 my-5"><span>Copyright 2014 Company</span>name. Designed by Themezy. All rights reserved</p>
+
+    </div>
+  </div>
+  </div>
+
+
+
+
+
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>
